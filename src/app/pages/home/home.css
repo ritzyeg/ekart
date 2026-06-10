@@ -1,0 +1,9 @@
+.home-products {
+  padding: 30px 10px;   
+  background: #f5f3ff;  
+}
+.home-products .col-lg-3,
+.home-products .col-md-4,
+.home-products .col-sm-6 {
+  padding: 60px;
+}

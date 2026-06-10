@@ -1,0 +1,24 @@
+<!--<div class="container text-center">
+  <div class="row">
+      @for (item of cardData; track item.id) {
+        <div class="col">
+          <app-product-card [data]="item"></app-product-card>
+        </div>
+      } @empty {
+        <li>There are no items.</li>
+      }
+    </div>
+  </div> parent ille data child ill kanan variable declare cheyth products.html ill change then go to product-cards.html-->
+  <div class="product-page">
+  <div class="container text-center">
+  <div class="row">
+      @for (item of products; track item.name) { <!--name koduthalum item koduthalum same o/p,no items anel refresh adikumbo kittum-->
+        <div class="col">
+          <app-product-card [productdata]="item"></app-product-card>
+        </div>
+      } @empty {
+        <li>There are no items.</li>
+      }
+    </div>
+  </div>
+</div>

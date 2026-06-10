@@ -1,0 +1,9 @@
+<br>
+<div class="card h-100"  style="width: 15rem;">
+  <img src="{{productdata.image}}" class="card-img-top" alt="...">
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">{{productdata.title}}</h5>
+    <p class="card-text flex-grow-1">{{productdata.description}}</p>
+    <a href="#" class="btn btn-primary mt-auto" [routerLink]="['/single-page',productdata.id]">Add to cart</a>
+  </div>
+</div>
